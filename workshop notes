@@ -1,0 +1,68 @@
+car_rows <- glue::glue("There are {nrow(mtcars)} rows in the `mtcars` dataset.")
+r car_rows
+
+There are 32 rows in the mtcars dataset.
+
+slide 24 
+knitr allows control size of images 
+
+slide 25
+visual editor mode
+
+click visual in top left hand corner
+
+insert code chunk shortcut and dropdown
+
+echo = false prevents code from showing up, only output 
+
+n_distinct : count unique values in vector 
+
+
+gt package for tables
+
+knitr is package that provides core features for markdown 
+
+chunks can be names to aid navigation and fixing problems
+
+named chunks can be re-used
+
+use setup chunk to set global settings
+
+oragnizing within a project makes analysis easier
+
+knitting = rendering 
+
+here::here package to pull files into working directory 
+
+cmnd+shft+p drop down search in R studio 
+
+cmnd+shft+i - insert new code chunk
+
+cog drop-down
+
+- in-line chunk ouput will print out chunks inline 
+
+library(ggridges)
+
+ggplot: increase dpi (figure resolution)
+
+{r, dpi = 72, fig.width = 5}
+
+fig.path to define location to save images 
+
+can use global setup chunk to format figures and direct all images to new directory 
+
+TABLES
+flextable useful for creating word tables
+
+also gtsummary 
+
+xarnigan package great for using markdown 
+
+distill package 
+
+interactive plotly R / ggirafe
+
+ggplotly will wrap a ggplot and make it interactive 
+
+Dt / reactable packages - interactive tables in R
